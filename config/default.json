@@ -1,3 +1,5 @@
 {
-	"mongoURI":"mongodb+srv://administrator:K8czuSUH0CN4PkfF@poshanabhiyaan-z1szq.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI":"YOUR_MONGO_CONNECT_URI",
+    "nexmoApiKey":"YOUR_NEXMO_API_KEY",
+    "nexmoApiSecret":"YOUR_NEXMO_API_SECRET"
 }
