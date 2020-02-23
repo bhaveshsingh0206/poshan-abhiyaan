@@ -1,22 +1,23 @@
 const Nexmo = require('nexmo');
 const express = require('express'),
-	router = express.Router();
+      router = express.Router(),
+      config = require('config'),
+      nexmoApiKey = config.get('nexmoApiKey'),
+      nexmoApiSecret = config.get('nexmoApiSecret');
 
 const nexmo = new Nexmo({
-	apiKey: '63e792d8',
-	apiSecret: 'MDFgYqtnaj69gBH5'
+	apiKey: nexmoApiKey,
+	apiSecret: nexmoApiSecret
 },{debug: true});
 
-const num_array = ['+919619045206','+91 70210 81470']
+// Add numbers to send messages
+const num_array = []
 
 router.get('/sendmsg',(req,res)=>{
-	const number = '+917021081470';
+	//const number = '';
 	const text = 'Hello';
-	
-	
-	
-	nexmo.message.sendSms(
-	'+919819972574', '+917021600329', text, {type: 'unicode'},
+
+	nexmo.message.sendSms(num_array, text, {type: 'unicode'},
 	(err, responseData)=>{
 		if(err){
 			console.log(err);
