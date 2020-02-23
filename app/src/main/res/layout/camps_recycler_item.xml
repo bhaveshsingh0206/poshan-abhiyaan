@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        android:elevation="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tv_camp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camp Name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+
+            <TextView
+                android:id="@+id/tv_camp_desc"
+                android:layout_below="@id/tv_camp_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camp desc"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

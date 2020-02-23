@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Poshan Abhiyaan</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <string name="nav_camps">Camps</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+</resources>
