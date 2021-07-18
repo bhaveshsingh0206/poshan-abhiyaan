@@ -34,6 +34,9 @@ If a user misses his/her dose, the health worker has a feature of sending a remi
 
 ## Developers
 
+> Bhavesh Singh
+> [github.com/bhaveshsingh0206](https://github.com/bhaveshsingh0206)
+
 > Adnan Hakim
 > [github.com/adnanhakim](https://github.com/adnanhakim)
 
@@ -43,8 +46,6 @@ If a user misses his/her dose, the health worker has a feature of sending a remi
 > Arsh Shaikh
 > [github.com/arshshaikh06](https://github.com/arshshaikh06)
 
-> Bhavesh Singh
-> [github.com/bhaveshsingh0206](https://github.com/bhaveshsingh0206)
 
 > Priya Shah
 > [github.com/priyashah31](https://github.com/priyashah31)
